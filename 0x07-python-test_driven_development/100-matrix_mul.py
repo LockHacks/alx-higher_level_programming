@@ -56,7 +56,7 @@ def matrix_mul(m_a, m_b):
     mul_matrix = []
 
     for row_1 in m_a:
-        i = 0
+        len = 0
         l_row = []
         while l < len(m_b[0]):
             result = 0
